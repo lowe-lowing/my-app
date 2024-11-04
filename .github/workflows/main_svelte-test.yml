@@ -69,3 +69,5 @@ jobs:
           slot-name: 'Production'
           package: .
           startup-command: 'npm run preview'
+
+          # TODO: this shit contains two azure deployments, delete this shit and the deployment. And create a new sveltekit 5 app and try again to host as a web app on azure
